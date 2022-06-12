@@ -683,6 +683,7 @@ header
       }
       /*GITHUB*/
       body{
+        background: repeating-linear-gradient(coral 15% rgb(206, 85, 41))15% rgb(161, 47, 6)15%;
         background-color: coral;
       }
       .primercambio{
