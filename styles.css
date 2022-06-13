@@ -169,7 +169,7 @@ img{
     background-color: green;
   }
 }
-/*div.animame {
+div.animame {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 0, 0, 0.9);
@@ -187,12 +187,12 @@ div:not(.animame) {
   left: 207px;
   top: 57px;
 }
-@keyframes animacion{
+/*@keyframes animacion{
    from {}
    to {}
-  transform: skewY(25deg);
+   transform: skewY(25deg);
   border-radius: 50%;
-}
+}*/
 /*configuracion inicial */
 .animame {/* Animation, valores en orden: name - duration - timingfunction - delay - iterationcount - direction */
 animation: animacion 1s linear 3s infinite alternate;
