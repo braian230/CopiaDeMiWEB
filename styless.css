@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500 & display=swap');
 
+/*header{
+    border-image-slice: 25%;
+    border-image-repeat: repeat round;
+    border-image-width: 30px;
+    border-image-outset: 10px;
+    margin-top:-10px;
+    height: 1px;
+    max-width: 100%;
+    border-radius: 5% 15px 15px;
+    border: 1px solid darkgrey;
+    padding-bottom: 1%;
+    box-shadow: 5px 5px 5px whitesmoke inset, 5px 5px 5px white;
+}*/
 *{
     font-family:'Poppins',sans-serif;
     margin: 0%;
@@ -10,22 +23,10 @@
     border: none;
     text-transform: capitalize;
 }
-header{
-  border-image-slice: 25%;
-  border-image-repeat: repeat round;
-  border-image-width: 30px;
-  border-image-outset: 10px;
-  margin-top:-10px;
-  height: 1px;
-  max-width: 100%;
-  border-radius: 5% 15px 15px;
-  border: 1px solid darkgrey;
-  padding-bottom: 1%;
-  box-shadow: 5px 5px 5px whitesmoke inset, 5px 5px 5px white;
-}
-
-body {
+body{
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
     width: auto;
+    /*background-image: url(https://i.pinimg.com/originals/db/ca/75/dbca755673ffd6f5f02631f724a7e9bc.jpg);*/
 }
 .contenido{
     max-width:100%;
@@ -33,7 +34,6 @@ body {
     margin-top: 2em;
     padding:20px;
 }
-
 
 .productos{
     text-align: center;
@@ -169,7 +169,7 @@ img{
     background-color: green;
   }
 }
-div.animame {
+/*div.animame {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 0, 0, 0.9);
@@ -187,12 +187,12 @@ div:not(.animame) {
   left: 207px;
   top: 57px;
 }
-/*@keyframes animacion{
+@keyframes animacion{
    from {}
    to {}
-   transform: skewY(25deg);
+  transform: skewY(25deg);
   border-radius: 50%;
-}*/
+}
 /*configuracion inicial */
 .animame {/* Animation, valores en orden: name - duration - timingfunction - delay - iterationcount - direction */
 animation: animacion 1s linear 3s infinite alternate;
@@ -680,13 +680,4 @@ header
       }
       .titulo-visitanos{
         background-color: blue;
-      }
-      /*GITHUB*/
-      body{
-        background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(1,192,241,1) 61%, rgba(1,192,241,1) 98%, rgba(1,192,241,1) 98%, rgba(1,192,241,1) 100%);
-      }
-      .primercambio{
-        width: 50px;
-        height: 70px;
-        background-color: brown ;
       }
