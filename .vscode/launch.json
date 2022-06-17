@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "https://github.com/braian230/mi_repo.git",
+            "request": "launch",
+            "url": "https://github.com/braian230/mi_repo.git"
+        }
+    ]
+}
