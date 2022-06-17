@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500 & display=swap');
 
-/*header{
-    border-image-slice: 25%;
-    border-image-repeat: repeat round;
-    border-image-width: 30px;
-    border-image-outset: 10px;
-    margin-top:-10px;
-    height: 1px;
-    max-width: 100%;
-    border-radius: 5% 15px 15px;
-    border: 1px solid darkgrey;
-    padding-bottom: 1%;
-    box-shadow: 5px 5px 5px whitesmoke inset, 5px 5px 5px white;
-}*/
+
 *{
     font-family:'Poppins',sans-serif;
     margin: 0%;
@@ -27,8 +15,8 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: auto;
+    background-color:#1b2a4e;
     overflow-x: hidden;
-    /*background-image: url(https://i.pinimg.com/originals/db/ca/75/dbca755673ffd6f5f02631f724a7e9bc.jpg);*/
 }
 /*menu BOOTSTRAP*/
 #menu a{
@@ -158,13 +146,28 @@ footer{
 footer p{
   color: #f3f3f3 ;
   text-align: center;
+  transform: translateY(100%);
 }
 .iconos i{
   font-size: 26px;
   pad: 0 10px;
   color: #f3f3f3;
 }
-/*.contenido{
+
+/*VER PRODUCTOS*/
+#imagenes-productos{
+  transform: translate(10%, -1%);
+  transform: translateX(3%);
+  transform: translateY(5%);
+}
+
+
+
+
+
+
+/*CODIGO BASURA
+.contenido{
     max-width:100%;
     margin:100px auto;
     margin-top: 2em;
@@ -334,36 +337,6 @@ div:not(.animame) {
 animation: animacion 1s linear 3s infinite alternate;
 }
 
-.publicidad{
-    position: fixed;
-    flex-direction: row;
-    height: 32px;
-    width: 100%;
-    background: rgb(37, 13, 104);
-    color: rgb(156, 158, 34);
-    font-size: 17px;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-right: 2px;
-    padding-bottom: 2x;
-    border-top:5px solid white;
-    border-left: 5px solid rgb(105, 85, 173);
-    border-right: 5px solid rgb(105, 85, 173);
-    border-bottom: 5px solid white;
-}
-
-    
-*::selection{
-    background: var(--beige);
-    color:  white;
-}
-
-#footer{
-    background-color: burlywood;
-    font-size: 15px;
-    text-align: center;
-
-}
 
 
 
@@ -374,26 +347,6 @@ header .navbar{
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-}
-.title{
-    position:fixed;
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: capitalize;
-    letter-spacing: 10px;
-    flex-direction:row;
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    box-sizing: border-box;
-    outline: 0;
-    color:white;
-    text-shadow:3px -3px 5px black;
-    font-style:italic;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-
 }
 @keyframes aparecer{
   0%{
@@ -441,52 +394,7 @@ h1{
     border-radius: 50px;
     text-shadow:3px -3px black;
 }*/
-
-.navbar li a:hover{
-    color:indigo;
-
-}
-
-html{
-       font-size: 62.4%;
-       overflow:hidden 100;
-} 
-.redes{
-    width: 13%;
-    height: 10%;
-    
-    background: url(img/iconofb.png)left /40px no-repeat,
-    url(img/iconowp.png)center /40px no-repeat,
-    url(img/iconoig.png)right /40px no-repeat;
-}
-header
-{
-        position: center;
-        flex-direction: row;
-        top: 0;
-        left: 0;
-        width: 100%;
-        bottom: 50%;
-}
-    ul{
-       display: flex;
-       flex-direction: row;
-       font-size: 2rem;
-
-   }
-   
-   header input{
-       display: none;
-       
-   }
-   header label{
-       font-size: 3rem;
-       color: var(beige);
-       cursor: pointer;
-       visibility: hidden;
-       opacity: 0;
-    }
-        /*GRIDS*/
+/*CODIGO BASURA
 .contenido{
     grid-area: contenido;
     justify-content: center;
@@ -520,7 +428,7 @@ header
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+}*/
    /*GRILLA ACTIVA*/
   .contenido .title .publicidad .productos .navbar #footer{
        display: grid;
@@ -616,7 +524,7 @@ header
         grid-area: contenido;
       }*/
       
-      
+      /*CODIGO BASURA
       .footer { grid-area: footer; }
       
       .redes {
@@ -810,15 +718,5 @@ header
           .navbar { grid-area: navbar; }
             
         }
-      /*GRIDS- VISITANOS */
-      .nav-visitanos{
-        display: inline-block;
-      }
-      .titulo-visitanos{
-        background-color: blue;
-      }
+      */
     /*GITHUB*/
-    body{
-      background: rgb(12,161,185);
-      background: radial-gradient(circle, rgba(12,161,185,1) 0%, rgba(49,179,233,1) 4%, rgba(15,135,166,1) 61%, rgba(39,175,200,1) 98%, rgba(27,169,205,1) 98%, rgba(17,185,228,1) 100%);
-    }
