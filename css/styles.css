@@ -97,8 +97,8 @@ body{
 }
 .wrapper{
   width: 50%;
-  margin-left: 100px;
-  padding-top: 150px;
+  margin-left: 50px;
+  padding-top: 15px;
 }
 #numeros-local div{
   padding: 0 20px 0 0;
@@ -133,10 +133,8 @@ body{
   min-height: 500px;
   position: relative;
 }
-.boton-enviar{
-  width: 150px;
-  padding-top: 450px;
-  padding-left: 1px;
+.mapa{
+  transform: translateX(-40%);
 }
 /*FOOTER*/
 footer{
@@ -150,19 +148,30 @@ footer p{
 }
 .iconos i{
   font-size: 26px;
-  pad: 0 10px;
+  padding: 0 10px;
   color: #f3f3f3;
 }
 
 /*VER PRODUCTOS*/
 #imagenes-productos{
+  width: 80%;
   transform: translate(10%, -1%);
   transform: translateX(3%);
   transform: translateY(5%);
 }
-
-
-
+.boton{
+  transform: translateY(90%);
+}
+/*CONTACTO*/
+#contenedor-formulario{
+  transform: translateY(3%);
+}
+.boton-enviar{
+  width: 200px;
+  padding-top: 450px;
+  padding-left: 1px;
+  transform: translate(-82%, 40%);
+}
 
 
 
