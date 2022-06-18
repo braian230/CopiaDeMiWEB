@@ -150,6 +150,7 @@ footer p{
   font-size: 26px;
   padding: 0 10px;
   color: #f3f3f3;
+
 }
 
 /*VER PRODUCTOS*/
@@ -172,8 +173,63 @@ footer p{
   padding-left: 1px;
   transform: translate(-82%, 40%);
 }
+/*OPORTUNIDADES*/
+#imagenes-hotsale{
+  width: 80%;
+  transform: translateY(40%);
+  
+}
+.button{
+  background: linear-gradient(102deg, #4551b5 40%, #543fd7 60%);
+  color: #ffffff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  min-width:200px;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, .5);
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+  7%{
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+  }
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+}
+/*INDEX*/
+.parrafo-animadoindex h1{
+  color: #ffffff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  min-width:200px;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, .5);
+  animation: aparecer 1.5s infinite;
 
-
+}
+@keyframes aparecer{
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+  70%{
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+  }
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+}
 
 /*CODIGO BASURA
 .contenido{
@@ -439,7 +495,7 @@ h1{
     align-items: center;
 }*/
    /*GRILLA ACTIVA*/
-  .contenido .title .publicidad .productos .navbar #footer{
+  /*.contenido .title .publicidad .productos .navbar #footer{
        display: grid;
    }
 @media screen and (min-width:320px){
@@ -467,7 +523,7 @@ h1{
           "footer";
         grid-area: contenido;
       }*/
-      .productos{
+     /* .productos{
           grid-area: productos; }
       
       #footer { 
@@ -520,7 +576,7 @@ h1{
           "navbar navbar navbar"
           "envoltura" "productos productos productos";
       }
-      
+      */
       /*.contenido {  display: grid;
         grid-template-columns: 1fr 1.5fr 4fr;
         grid-template-rows: 2fr 1fr 1fr;
