@@ -1,10 +1,232 @@
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
+/*ESTILOS SIN SASS */
+*{
+    font-family:'Poppins',sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
 }
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    background-color:#1b2a4e;
+    overflow-x: hidden;
+}
+/*menu BOOTSTRAP*/
+#menu a{
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+
+/*Carrusel de imagenes */
+.carousel-inner{
+  max-height: 39rem;
+  max-width: 80rem;
+  padding-left: 5rem;
+}
+.servicio-cocina{
+      width: 100%;
+      text-align: center;
+}
+
+/*MEDIA QUERIES PANTALLA SM */
+@media screen and (max-width:768px){
+  #intro #equipo{
+    width: 90%;
+  }
+  #equipo p {
+    display: none;
+  }
+  .bg-sn{
+    position: relative;
+    top:130px;
+  }
+  .bg-contacto{
+    position: relative;
+    top:-110px;
+  }
+
+}
+/*MEDIA QUERIES PANTALLA XS */
+@media screen and(max-width:576px) {
+    .icono-wrap{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .bg-sn{
+      position: relative;
+      top:-110px;
+    }
+    .bg-contacto{
+      position: relative;
+      top:-110px;
+    }
+    
+}
+/*MEDIA QUERIES PANTALLA ANCHA */
+@media screen and (max-width:1200px){
+  .local{
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top:50px;
+  }
+}
+
+
+/* SOBRE NOSOTROS */
+#equipo{
+  padding:15%;
+}
+.local{
+  background:#f3f3f3;
+  padding-bottom: 300px ;
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  width: 50%;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+#numeros-local div{
+  padding: 0 20px 0 0;
+  height: 48px;
+
+}
+#numeros-local div:not(:last-child){
+  border-right: 2px solid #3f3f3f;
+}
+#numeros-local div:not(:first-child){
+  padding-left: 20px;
+}
+#numeros-local p {
+  margin:0;
+}
+.bg-sn{
+  position: relative;
+  top:-130px;
+}
+
+.seccion-sn{
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative;
+}
+.bg-contacto{
+  position: relative;
+  top:-130px;
+}
+.seccion-contacto{
+  background-color:#1b2a4e;
+  min-height: 500px;
+  position: relative;
+}
+.mapa{
+  transform: translateX(-40%);
+}
+/*FOOTER*/
+footer{
+  background-color: #1b2a4e;
+  min-height: 100px;
+}
+footer p{
+  color: #f3f3f3 ;
+  text-align: center;
+  transform: translateY(100%);
+}
+.iconos i{
+  font-size: 26px;
+  padding: 0 10px;
+  color: #f3f3f3;
+
+}
+
+/*VER PRODUCTOS*/
+#imagenes-productos{
+  width: 80%;
+  transform: translate(10%, -1%);
+  transform: translateX(3%);
+  transform: translateY(5%);
+}
+.boton{
+  transform: translateY(90%);
+}
+/*CONTACTO*/
+#contenedor-formulario{
+  transform: translateY(3%);
+}
+.boton-enviar{
+  width: 200px;
+  padding-top: 450px;
+  padding-left: 1px;
+  transform: translate(-82%, 40%);
+}
+/*OPORTUNIDADES*/
+#imagenes-hotsale{
+  width: 80%;
+  transform: translateY(40%);
+  
+}
+.button{
+  background: linear-gradient(102deg, #4551b5 40%, #543fd7 60%);
+  color: #ffffff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  min-width:200px;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, .5);
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse{
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+  7%{
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+  }
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+}
+/*INDEX*/
+.parrafo-animadoindex h1{
+  color: #ffffff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  min-width:200px;
+  text-decoration: none;
+  box-shadow: 0 0 0 0 rgba(0, 0, .5);
+  animation: aparecer 1.5s infinite;
+
+}
+@keyframes aparecer{
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+  70%{
+    transform: scale(1);
+    box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+  }
+  0%{
+    transform: scale(.99);
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
