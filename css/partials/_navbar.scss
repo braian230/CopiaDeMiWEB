@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+}
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: size(8);
+    width: 100px;
+    color: $color-terciario;
+    text-decoration: underline;
+    $enable-gradients: true;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+    width: auto;
+    li{
+        a
+        {
+            background-color: $font-color;
+            border-radius: 50%;
+          &:hover{
+            box-shadow: $box-shadow;
+          }
+            
+        }
+    }
+}
+
+.navbar{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      
+    }

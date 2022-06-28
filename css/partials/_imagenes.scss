@@ -1,0 +1,22 @@
+@import './minxisfunc';
+.carousel-item{
+    img{
+        width: 200px;
+        background-size: cover;
+        height: 600px;
+        padding: 45px;
+    
+       }
+}
+//IMAGENES DE CARD//
+.card-img{
+    @include media-up(sm){
+        transform: scale(0.5);
+    }
+    @include media-up (lg){
+        background-color: $color-terciario;
+    }
+    @include media-up(ms){
+            background-color: $color-primario;
+    }
+}
