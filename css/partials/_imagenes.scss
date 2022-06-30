@@ -5,18 +5,38 @@
         background-size: cover;
         height: 600px;
         padding: 45px;
+        filter: brightness(0.8);
+
     
        }
 }
 //IMAGENES DE CARD//
+//.card-img{
+    //@include media-up(sm){
+        //transform: scale(0.5);
+    //}
+    //@include media-up (lg){
+        //background-color: $color-terciario;
+    //}
+    //@include media-up(ms){
+            //background-color: $color-primario;
+    //}
+//}
+
+
+
 .card-img{
-    @include media-up(sm){
-        transform: scale(0.5);
+    
+        @include Imagencard;
+
+}
+.animacion-hotsale1
+    {
+        img{
+            @include hotsale;
+        }
     }
-    @include media-up (lg){
-        background-color: $color-terciario;
-    }
-    @include media-up(ms){
-            background-color: $color-primario;
-    }
+  
+.img-responsiveOP{
+    @include imagenOP
 }

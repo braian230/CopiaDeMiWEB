@@ -1,0 +1,7 @@
+1-Comprimi todas las imagenes de mi sitio
+2-Declare un mapa
+3-Utilize un map-get
+4-Utilize extend, if, return
+5-Cree variables
+6-Añadi las etiqueta meta description y keywords para el SEO
+

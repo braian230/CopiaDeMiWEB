@@ -3,7 +3,11 @@
 <head>
     <meta charset="UFT-8">
     <meta name="viewport" content="width"=device-width,initial-scale=1.0">
+    <meta name="description" content="Muebles con precios increibles">
+    <meta name="Keywords" content="Descuentos, muebles, superprecios, hogar, maderas, hierros, living, comedor, sala de estar, baño ">  
+    
     <title>Oportunidades de descuento</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -18,7 +22,7 @@
                 <div class="animacion-hotsale1">
                 <img src="../img/icon-hotsale.png" alt="">
                 </div>
-                <span class=""><h1 class="titulo-oportunidades">ARTICULOS CON DESCUENTOS
+                <span class=""><h1 class="titulo-oportunidades">Oportunidades
 
                 </h1></span>
                 </a>
@@ -45,32 +49,65 @@
             </div>
         </nav>
     </header>
+    <h4 class="subOP">¿Buscás Ofertas en Muebles Diseño Industrial? ¡Llegaste al lugar indicado!</h4>
+
+<div class="col-xs-8 col-sm7 text-right text-left-xs sort-by-container">
+    <label for="sort" class="text-light fs-4">Ordenar por:</label>
+    <select id="sort" class="js-sort-by sort-by form-control full-width-xs">
+        <option value="price-ascending">Precio: Menor a Mayor</option>
+        <option value="price-descending">Precio: Mayor a Menor</option>
+        <option value="alpha-ascending">A - Z</option>
+        <option value="alpha-descending">Z - A</option>
+        <option value="created-descending">Mas Nuevo al más viejo</option>
+        <option value="created-ascending">Mas Viejo al más Nuevo</option>
+        <option value="best-selling" selected>Mas Vendidos</option>
+    </select>
+</div>
+
+
+    <button class="botonOP">
+        <span>Comprar ahora</span>
+        <svg>
+            <rect x="0" y="0" fill="none"></rect>
+        </svg>
+    </button>
 
 <div class="container-fluid" id="imagenes-hotsale">
     <div class="row">
-        <div class="container">
-            <div class="row">
-            <a href="#" class="button text-dark">Comprar ahora</a>
-            </div>
-        </div>
-        <div class="card" style="width: 14rem;">
+    <div class="card" style="width: 14rem;">
             <img src="../img/mesa-ratona.jpg" class="img-responsive" alt="...">
             <div class="card-body"> 
                 <p class="card-text fw-bold">MESA CLASICA 140X80X80</p> 
-                <p class="fw-bold">$19.099,00</p> 
-                <p class="fw-bold">12 cuotas sin interes de $1.591,58</p> 
+                <p class="text-decoration-line-through">$19.099,00</p>
+                <p class="fw-bold">$16.799,00</p> 
+                <p class="fw-bold">12 cuotas sin interes de $1.399,00</p> 
             </div> 
         </div>
       <div class="card" style="width: 14rem;">
           <img src="../img/rack-mediano.jpg" class="img-responsive" alt="...">
           <div class="card-body">
               <p class="card-text fw-bold">MESA CLASICA 120X80X80</p>
-              <p class="fw-bold">$17.499,00</p>
-              <p class="fw-bold">12 cuotas sin interes de $1.458,25</p>
+              <p class="text-decoration-line-through">$17.499,00</p>
+              <p class="fw-bold">$15.499,00</p>
+              <p class="fw-bold">12 cuotas sin interes de $1.291,25</p>
           </div>
       </div>
     </div>
-</div>      
+</div>
+ <!--FOOTER-->
+ <div class="container-fluid">
+    <div class="row">
+  <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+     <p class="fs-5 px-0 pt-">Copyright Muebles Moreno - 2022. Todos los derechos reservados.
+  </p>
+  <div class="iconos">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-twitter"></i></a>
+    <a href="#"><i class="bi bi-instragram"></i></a>
+  </div>
+  </footer>
+  </div>
+  </div>      
     <script src=../js/bootstrap.bundle.min.js></script>
 </body>
 </html>

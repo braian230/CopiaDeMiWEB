@@ -43,21 +43,58 @@
   }
 
 
-@mixin hotsale ($animacion){
-    background: linear-gradient(102deg, #172499 40%, #543fd7 60%);
-    color: map-get($map: $colores00, $key: white );
+@mixin hotsale {
     display: inline-block;
     padding: 1rem 2rem;
-    height: 45px;
-
-    border-radius: .25rem;
-    min-width:200px;
+    height: 100px;
+    
+    
+    width: 100px;
     text-decoration: none;
     box-shadow: 0 0 0 0 rgba(0, 0, .5);
     animation: pulse 1.5s infinite;
+    border-radius: 50px;
 }
-@mixin ImagenI ($imagenInicio){
-    background-position: center;
-    background-size: 60%;
-    background-repeat: no-repeat;
+
+@mixin Imagencard{
+  width: 50%;
+  transform: translate(50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
 }
+@mixin Buttoncard ($Botonesmarrones){
+    background-color: map-get($map: $colores00, $key: 'btn');
+    opacity: 10px;
+}
+
+@mixin boton{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background: $boton01;
+    color: $boton02;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    overflow: hidden;
+}
+@mixin imagenOP{
+    width: 100px;
+    height: 100px;
+    
+}
+@mixin botonOP{
+    background: none;
+    color: $boton01;
+
+}
+

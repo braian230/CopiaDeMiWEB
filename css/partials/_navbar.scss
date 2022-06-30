@@ -5,9 +5,9 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: size(8);
     width: 100px;
-    color: $color-terciario;
+    color: $font-color;
     text-decoration: underline;
-    $enable-gradients: true;
+    $enable-gradients: 'true';
 }
 
 ul{
@@ -15,11 +15,12 @@ ul{
     display: inline-flex;
     gap: 20px;
     width: auto;
+    align-items: center;
     li{
         a
         {
             background-color: $font-color;
-            border-radius: 50%;
+            border-radius: 35%;
           &:hover{
             box-shadow: $box-shadow;
           }
@@ -34,3 +35,12 @@ ul{
         justify-content: flex-end;
       
     }
+
+
+
+
+.subOP{
+    background-color: white;
+    box-shadow: $box-shadow;
+    
+}
