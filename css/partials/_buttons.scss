@@ -69,25 +69,15 @@
   color: $boton02;
 }
 
-.botonOP{
-  svg{
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    fill: none;
-    top: 0;
-    left: 0;
-    }
-  rect{
-    width: 25px;
-    height: 25px;
-    stroke: $boton01;
-    stroke-width: 10px;
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    transition: .6s ease all;
-    }
+.mediosop{
+  @include mediosop
 }
-.botonOP:hover rect {
-  stroke-dashoffset: 0;
+.iconos{
+  @include iconos
+}
+
+.boton{
+  transform: translate(25%);
+  display: block;
+  margin-top: 60px;
 }

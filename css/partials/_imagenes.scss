@@ -37,6 +37,9 @@
         }
     }
   
-.img-responsiveOP{
+#imagenes-hotsale{
     @include imagenOP
+}
+#imagenes-productos{
+    @include imagenes-productos
 }

@@ -29,6 +29,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+        
+    
 
     @if ($bold == 'true'){
             font-weight: bolder;
@@ -88,8 +90,10 @@
     overflow: hidden;
 }
 @mixin imagenOP{
-    width: 100px;
-    height: 100px;
+    display: block;
+    transform: translate(35%);
+
+
     
 }
 @mixin botonOP{
@@ -97,4 +101,21 @@
     color: $boton01;
 
 }
+@mixin mediosop{
+    position: relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    
 
+        
+        
+}
+@mixin imagenes-productos{
+    display: block;
+    transform: translate(0,5%);
+
+}
+@mixin iconos{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
