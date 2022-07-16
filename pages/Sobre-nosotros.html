@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UFT-8">
-    <meta name="viewport" content="width"=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="Nuestros comienzos en el diseño industrial">
     <meta name="Keywords" content="Amplia variedad,Diseño industrial, Carpinteria">  
     <title>Diseño industrial</title>
@@ -14,11 +14,11 @@
 </head>    
 <body>
         <header>
-        <nav class="navbar navbar-expand-xxl bg-dark top-100 ">
+        <nav class="navbar navbar-expand-xxl bg-primary top-100 ">
             <div class="container-fluid bg-secondary">
                 <a class="navbar-brand" href="#"">
-                <img src="../img/circular.navbar.png" alt="">
-                <span class="fs-2 fw-semibold p-2 m-2">QUIÉNES SOMOS</span>
+                <img src="../img/circular.navbar.png" alt="icon">
+                <span class="fs-2 fw-semibold p-2 m-2 text-light">QUIÉNES SOMOS</span>
                 </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -50,20 +50,23 @@
             <h4 class="text-light fs-4 mx-2">Ofrecemos la posibilidad de hacer realidad cualquier idea que tengas para cualquier espacio de oficina, entre otros.</h4>
             </div>
             </div>
-            <div class="mt-5 mx-5">
-                <img class="img-fluid" src="../img/mirador1.png" alt="w-50">
-                <img class="img-fluid" src="../img/sanpedro1.jpg" alt="w-50">
+            <div class="imagensanpedro01"
+                <div class="col-sm-12 col-md-2 col-lg-2 col-xxl-2 py-3">
+                    <p class="text-bg-primary">San Pedro es una ciudad argentina sobre el rio Paraná junto a la desembocadura del rio Arrecifes.</p>
+                <img class="img-fluid" src="../img/mirador1.png" alt="mirador">
+                <img class="img-fluid" src="../img/sanpedro1.jpg" alt="barrancas">
+                </div>
             </div>
 
             <div class="local" class="border-top border-2">
                 <div class="mapa">
-                    <img src="../img/mapa.png" alt="" class="w-0">
+                    <img src="../img/mapa.png" alt="mapa" class="img-fluid">
                 </div>
                 <div>
                     <div class="wrapper">
-                        <h2 class="fs-4 fw-bol">San Pedro, Buenos Aires</h2>
+                        <h2 class="fs-4 fw-bol text-primary">San Pedro, Buenos Aires</h2>
                         <h2 class="text-primary mb-4 id="typewriter"></h2>
-                        <p class="fs-5 text-body">Elejimos San pedro con el objetivo de estar cerca de nuestros clientes. Estamos ubicados en calle 74 ¡Visitenos!</p>
+                        <p class="fs-5 text-bg-light">Elejimos San pedro con el objetivo de estar cerca de nuestros clientes. Estamos ubicados en calle 74 ¡Visitenos!</p>
                         <section class="d-flex" id="numeros-local">
                             <div>
                             <p class="text-primary fs-5">248</p>
@@ -89,21 +92,40 @@
             </div>
         </section>
                <!--FOOTER-->
-               <div class="container-fluid">
-                <div class="row">
-              <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
-                 <p class="fs-5 px-3 pt-5">Copyright Muebles Moreno - 2022. Todos los derechos reservados.
-              </p>
-              <div class="iconos">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <a href="#"><i class="bi bi-instragram"></i></a>
-                <h6>SEGUINOS</h6>
+               <div class="mediosop">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+                </svg>
+              <h6>PAGA COMO QUIERAS</h6>
               </div>
-              </footer>
+                <div class="seguridad">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                </svg>
+                <h6>COMPRÁ CON SEGURIDAD</h6>
               </div>
-              </div>
-
+              <div class="envios">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                </svg>
+                <h6>ENVIOS A TODO EL PAIS</h6>
+              
+              </div>              
+          <div class="container-fluid">
+            <div class="row">
+          <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+             <p class="text-light fs-5 px-3 pt-5">Copyright Muebles Moreno - 2022. Todos los derechos reservados.
+          </p>
+          <div class="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instragram"></i></a>
+            <h6 class="text-light">SEGUINOS</h6>
+          </div>
+          </footer>
+          </div>
+          </div>  
     <script src=../js/bootstrap.bundle.min.js></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="main.js"></script>

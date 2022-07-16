@@ -14,6 +14,7 @@ a {
   width: 100px;
   color: #aaa;
   text-decoration: underline;
+  border-radius: 25px;
 }
 
 ul {
@@ -40,6 +41,10 @@ ul li a:hover {
 .subOP {
   background-color: white;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.6);
+}
+
+.titulo-oportunidades {
+  border-radius: 25px;
 }
 
 .carousel-item img {
@@ -71,13 +76,35 @@ ul li a:hover {
 }
 
 #imagenes-hotsale {
-  display: block;
-  transform: translate(35%);
+  display: inline-block;
+  width: 300px;
+  flex-direction: row;
+  padding: 50px;
+  margin: 100px;
+  background: #003366;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
 
 #imagenes-productos {
   display: block;
   transform: translate(0, 5%);
+}
+
+.mediosop h6, .envios h6, .seguridad h6 {
+  color: #fff;
+}
+
+.mapa {
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.imagensanpedro01 {
+  width: 60%;
+  margin: 10px;
+  padding-top: 150px;
+  border: 10px solid black;
 }
 
 .parrafo-animadoindex {
@@ -247,10 +274,11 @@ span {
   color: #fff;
 }
 
-.mediosop {
+.mediosop, .envios, .seguridad {
   position: relative;
   display: inline-block;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  color: blue;
 }
 
 .iconos {

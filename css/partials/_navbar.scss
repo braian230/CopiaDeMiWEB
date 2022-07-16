@@ -8,6 +8,7 @@ a{
     color: $font-color;
     text-decoration: underline;
     $enable-gradients: 'true';
+    border-radius: 25px;
 }
 
 ul{
@@ -37,7 +38,7 @@ ul{
     }
 
 
-
+//SECCION OPORTUNIDADES//
 
 .subOP{
     background-color: white;
@@ -45,3 +46,6 @@ ul{
     
 }
 
+.titulo-oportunidades{
+    border-radius: 25px;
+}

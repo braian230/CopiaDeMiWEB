@@ -90,8 +90,15 @@
     overflow: hidden;
 }
 @mixin imagenOP{
-    display: block;
-    transform: translate(35%);
+    display: inline-block;
+    width: 300px;
+    flex-direction: row;
+    padding: 50px;
+    margin: 100px;
+    background: $color-primario;
+    box-shadow: $box-shadow;
+    
+
 
 
     
@@ -99,16 +106,9 @@
 @mixin botonOP{
     background: none;
     color: $boton01;
-
-}
-@mixin mediosop{
-    position: relative;
-    display: inline-block;
-    justify-content: space-evenly;
+}  
+@mixin seguridad{
     
-
-        
-        
 }
 @mixin imagenes-productos{
     display: block;
